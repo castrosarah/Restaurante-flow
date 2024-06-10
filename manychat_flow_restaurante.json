@@ -1,0 +1,56 @@
+
+{
+  "version": "v2",
+  "content": {
+    "messages": [
+      {
+        "id": "welcome_message_restaurant",
+        "message": {
+          "text": "Olá! Bem-vindo ao [Nome do restaurante]. Eu sou o [Nome do Assistente Virtual]. Como posso ajudar você hoje?",
+          "quick_replies": [
+            {
+              "title": "Quero fazer uma reserva",
+              "payload": "reservation"
+            },
+            {
+              "title": "Gostaria de ver o cardápio",
+              "payload": "menu"
+            },
+            {
+              "title": "Quero saber sobre eventos e catering",
+              "payload": "events_catering"
+            },
+            {
+              "title": "Tenho outra dúvida",
+              "payload": "other_question_restaurant"
+            }
+          ]
+        }
+      },
+      {
+        "id": "reservas",
+        "message": {
+          "text": "Para fazer uma reserva, só preciso de alguns detalhes: seu nome completo, telefone, número de pessoas, e a data e hora que você deseja. Pode me passar essas informações?"
+        }
+      },
+      {
+        "id": "menu",
+        "message": {
+          "text": "Nosso cardápio é realmente especial! Você pode conferir tudo neste link: [Link do Cardápio]. Qualquer dúvida sobre os pratos, estou por aqui."
+        }
+      },
+      {
+        "id": "eventos_catering",
+        "message": {
+          "text": "Nós adoramos organizar eventos e oferecer serviços de catering. Me conta um pouco sobre o que você está planejando - tipo de evento, data, número de convidados e suas preferências. Vou elaborar uma proposta incrível para você."
+        }
+      },
+      {
+        "id": "question_restaurant",
+        "message": {
+          "text": "Claro, estou aqui para ajudar. Qual é a sua dúvida?"
+        }
+      }
+    ]
+  }
+}
